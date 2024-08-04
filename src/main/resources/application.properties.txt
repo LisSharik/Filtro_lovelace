@@ -1,0 +1,17 @@
+spring.application.name=filtro_lovelace
+
+server.servlet.context-path=/api/v1
+
+spring.datasource.url=jdbc:mysql://localhost:3306/lovelace_filter_db
+spring.datasource.username=root
+spring.datasource.password=Rlwl2023.
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+server.porct=8080
+
+#Configuraciones de JPA
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+#Dialecto
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect

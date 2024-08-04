@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-FiltroLovelaceApplication<filtro_lovelace>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.riwi.filtro_lovelace.FiltroLovelaceApplication",
+      "projectName": "filtro_lovelace",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
